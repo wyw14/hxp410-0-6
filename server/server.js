@@ -5,7 +5,7 @@ const path = require('path');
 const { v4: uuidv4 } = require('uuid');
 
 const app = express();
-const PORT = 3005;
+const PORT = 41106;
 
 const DATA_DIR = path.join(__dirname, 'data');
 const SECRETS_FILE = path.join(DATA_DIR, 'secrets.json');
